@@ -1,0 +1,142 @@
+body {
+    background-color: #e0ffff;
+}
+
+h1 {
+    font-size: 25;
+    color: rgb(30, 60, 210);
+}
+
+h2 {
+    font-size: 20;
+    color: #8B0000;
+}
+
+ol,
+ul {
+    font-size: 12;
+    color: aquamarine;
+    padding: 20;
+}
+
+li {
+    font-size: 11;
+    margin: 20;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.content-left {
+    border: 2px solid silver;
+    padding: 15px;
+    width: 60%;
+    background-color: #e0fff0;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+.content-right {
+    border: 2px solid silver;
+    padding: 15px;
+    width: 30%;
+    background-color: #e0fff0;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 5px;
+    text-align: right;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 7px;
+}
+
+.cotainer {
+    background-color: aqua;
+}
+
+.cotainer-2 {
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cotainer-3 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #cacaca;
+    margin: 0 auto;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #cacaca;
+    margin: 0 auto;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.cotainer-4 {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.block-common {
+    width: 150px;
+    height: 150px;
+}
+
+.blue {
+    position: relative;
+    border: 2px solid rgb(0, 153, 255);
+    left: 280px;
+    top: -100px;
+}
+
+.green {
+    position: relative;
+    border: 2px solid rgb(0, 255, 42);
+    left: 150px;
+    top: -40px;
+}
+
+.red {
+    position: relative;
+    border: 2px solid rgb(255, 0, 0);
+    left: 20px;
+    top: 20px;
+}
+
+.abs-haus {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.abs-haus.img {
+    width: 100px;
+    height: 100px;
+}
