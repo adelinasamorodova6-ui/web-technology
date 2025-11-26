@@ -3,25 +3,25 @@ body {
 }
 
 h1 {
-    font-size: 25;
+    font-size: 25px;
     color: rgb(30, 60, 210);
 }
 
 h2 {
-    font-size: 20;
+    font-size: 20px;
     color: #8B0000;
 }
 
 ol,
 ul {
-    font-size: 16;
+    font-size: 16px;
     color: rgb(30, 60, 210);
-    padding: 20;
+    padding: 20px;
 }
 
 li {
-    font-size: 14;
-    margin: 20;
+    font-size: 14px;
+    margin: 20px;
 }
 
 .content {
@@ -33,20 +33,20 @@ li {
 
 .content-left {
     border: 2px solid silver;
-    padding: 15px;
-    width: 60%;
-    background-color: #e0fff0;
+    padding: 20px;
+    width: 70%;
+    background: #e0fff0;
     margin: 15px;
     border-radius: 7px;
 }
 
 .content-right {
     border: 2px solid silver;
-    padding: 15px;
-    width: 30%;
-    background-color: #e0fff0;
-    margin: 15px;
-    border-radius: 7px;
+    padding: 20px;
+    width: 20%;
+    background: #e0fff0;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 .img {
@@ -56,15 +56,15 @@ li {
 
 .header {
     background-color: #ffffff;
-    padding: 5px;
+    padding: 15px;
     text-align: right;
     border: 2px solid rgb(255, 0, 0);
-    border-radius: 7px;
+    border-radius: 10px;
 }
 
 .block-common {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .block {
@@ -86,15 +86,13 @@ li {
 }
 
 .container-3 {
-    background-color: aqua;
+    background-color: #4088e7;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .block-2 {
-    width: 200px;
-    height: 200px;
     background-color: #cacaca;
     margin: 0 auto;
 }
@@ -102,6 +100,7 @@ li {
 .block-3 {
     width: 200px;
     height: 200px;
+    background-color: #cacaca;
     margin: 10px;
 }
 
@@ -109,25 +108,25 @@ li {
     border: 2px solid rgb(255, 0, 0);
 }
 
-.blue {
+.red {
     position: relative;
-    border: 2px solid rgb(0, 153, 255);
-    left: 280px;
-    top: -100px;
+    border: 2px solid red;
+    left: 20px;
+    top: 20px;
 }
 
 .green {
     position: relative;
-    border: 2px solid rgb(0, 255, 42);
+    border: 2px solid green;
     left: 150px;
     top: -40px;
 }
 
-.red {
+.blue {
     position: relative;
-    border: 2px solid rgb(255, 0, 0);
-    left: 20px;
-    top: 20px;
+    border: 2px solid blue;
+    left: 280px;
+    top: -100px;
 }
 
 .abs-haus {
@@ -140,4 +139,5 @@ li {
     width: 100px;
     height: 100px;
 }
+
 
