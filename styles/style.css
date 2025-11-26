@@ -74,18 +74,18 @@ li {
     margin: 0 auto;
 }
 
-.cotainer {
+.container {
     background-color: aqua;
 }
 
-.cotainer-2 {
+.container-2 {
     background-color: aqua;
     height: 300px;
     display: flex;
     align-items: center;
 }
 
-.cotainer-3 {
+.container-3 {
     background-color: aqua;
     display: flex;
     flex-direction: row;
@@ -105,7 +105,7 @@ li {
     margin: 10px;
 }
 
-.cotainer-4 {
+.container-4 {
     border: 2px solid rgb(255, 0, 0);
 }
 
@@ -140,3 +140,4 @@ li {
     width: 100px;
     height: 100px;
 }
+
