@@ -34,15 +34,6 @@ tr:nth-child(2n+1) {
     background-color: rgb(109, 129, 221);
 }
 
-td:nth-child(even),
-th:nth-child(even) {
-    background-color: #f0f8ff;
-}
-
-td:nth-child(odd),
-th:nth-child(odd) {
-    background-color: #f1efef;
-}
 
 tr:hover {
     background-color: #dff0ff;
