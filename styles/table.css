@@ -47,3 +47,6 @@ th:nth-child(odd) {
 tr:hover {
     background-color: #dff0ff;
 }
+tr:nth-last-child(1){
+    background-color: #c112e4;
+}
