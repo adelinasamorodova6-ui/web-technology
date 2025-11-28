@@ -1,5 +1,5 @@
 .header {
-    background: red;
+    background: #eee;
     padding: 15px;
 }
 
@@ -18,21 +18,17 @@ caption {
 th,
 td {
     padding: 10px 15px;
-    border: 1px solid #888;
+    border: 1px solid #12a1e4;
 }
 
-th {
-    background-color: #d9e6ff;
-    text-align: left;
+    td:nth-child(even),
+    th:nth-child(even) {
+    background-color: #f0f8ff; 
 }
 
-tr:nth-child(even) {
-    background-color: #f6f6f6;
-}
-
-
-tr:nth-child(odd) {
-    background-color: #ffffff;
+    td:nth-child(odd),
+    th:nth-child(odd) {
+    background-color: #f1efef;
 }
 
 tr:hover {
