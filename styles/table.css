@@ -26,13 +26,17 @@ td {
     border: 1px solid #12a1e4;
 }
 
-tr:nth-child(even){
+tr:nth-child(2n) {
     background-color: aqua;
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(109, 129, 221);
 }
 
 td:nth-child(even),
 th:nth-child(even) {
-    background-color: #f0f8ff; 
+    background-color: #f0f8ff;
 }
 
 td:nth-child(odd),
