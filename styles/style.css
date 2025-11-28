@@ -72,19 +72,19 @@ li {
     width: 200px;
     height: 200px;
     background-color: #e0fff0;
-    margin: 0 auto; /* центрирование по горизонтали */
+    margin: 0 auto; 
 }
 
 .image {
     display: block;
     width: 200px;
-    margin: 20px auto; /* центрирование картинки */
+    margin: 20px auto; 
 }
 
 /* ВЕРТИКАЛЬНОЕ ПОЗИЦИОНИРОВАНИЕ */
 .container-2 {
     background-color: antiquewhite;
-    height: 300px;             /* нужно, чтобы было что центрировать */
+    height: 300px;             
     display: flex;
     justify-content: center;   /* по горизонтали */
     align-items: center;       /* по вертикали */
@@ -95,6 +95,23 @@ li {
     height: 200px;
     background-color: #e0fff0;
 }
+.container-3 {
+    background-color: aquamarine;
+    border: 5px solid #8B0000;
+
+    display: flex;             
+    flex-wrap: wrap;           
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background: #e0fff0;
+    margin-bottom: 10px; 
+}
+
 
 
 
