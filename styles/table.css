@@ -15,6 +15,11 @@ caption {
     margin-bottom: 15px;
 }
 
+th {
+    background-color: #d9e6ff;
+    text-align: left;
+}
+
 th,
 td {
     padding: 10px 15px;
