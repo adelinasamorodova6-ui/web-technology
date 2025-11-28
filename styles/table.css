@@ -1,5 +1,5 @@
 .header {
-    background: #eeeeee;
+    background: #eee;
     padding: 15px;
 }
 
@@ -21,13 +21,17 @@ td {
     border: 1px solid #12a1e4;
 }
 
-    td:nth-child(even),
-    th:nth-child(even) {
+tr:nth-child(even){
+    background-color: aqua;
+}
+
+td:nth-child(even),
+th:nth-child(even) {
     background-color: #f0f8ff; 
 }
 
-    td:nth-child(odd),
-    th:nth-child(odd) {
+td:nth-child(odd),
+th:nth-child(odd) {
     background-color: #f1efef;
 }
 
