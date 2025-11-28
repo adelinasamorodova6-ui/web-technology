@@ -1,4 +1,4 @@
-body {
+bbody {
     background-color: #e0ffff;
 }
 
@@ -60,6 +60,15 @@ li {
     text-align: right;
     border: 2px solid rgb(255, 0, 0);
     border-radius: 10px;
+}
+
+.container{
+    background-color: aqua;
+}
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: #e0fff0;
 }
 
 
