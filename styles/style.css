@@ -70,7 +70,7 @@ li {
     width: 200px;
     height: 200px;
     background-color: #e0fff0;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .image {
@@ -95,6 +95,7 @@ li {
     padding: 20px;
     margin: 20px;
 }
+
 
 
 
