@@ -70,8 +70,7 @@ li {
     width: 200px;
     height: 200px;
     background-color: #e0fff0;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .image {
@@ -81,6 +80,7 @@ li {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: auto;
+    margin-top: 20px;
 }
 
 .container-2 {
@@ -96,6 +96,7 @@ li {
     padding: 20px;
     margin: 20px;
 }
+
 
 
 
