@@ -62,40 +62,40 @@ li {
     border-radius: 10px;
 }
 
+/* ГОРИЗОНТАЛЬНОЕ ПОЗИЦИОНИРОВАНИЕ */
 .container {
     background-color: aqua;
+    padding: 20px;
 }
 
 .block {
     width: 200px;
     height: 200px;
     background-color: #e0fff0;
-    margin: 0 auto;
+    margin: 0 auto; /* центрирование по горизонтали */
 }
 
 .image {
     display: block;
-    height: 300px;
     width: 200px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: auto;
-    margin-top: 20px;
+    margin: 20px auto; /* центрирование картинки */
 }
 
+/* ВЕРТИКАЛЬНОЕ ПОЗИЦИОНИРОВАНИЕ */
 .container-2 {
     background-color: antiquewhite;
+    height: 300px;             /* нужно, чтобы было что центрировать */
+    display: flex;
+    justify-content: center;   /* по горизонтали */
+    align-items: center;       /* по вертикали */
 }
 
 .block-2 {
     width: 200px;
     height: 200px;
     background-color: #e0fff0;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
 }
+
 
 
 
