@@ -69,7 +69,9 @@ li {
     width: 200px;
     height: 200px;
     background-color: #e0fff0;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
 }
 .image{
     display: block;
@@ -79,6 +81,7 @@ li {
     margin-left: auto;
     margin-bottom: auto;
 }
+
 
 
 
