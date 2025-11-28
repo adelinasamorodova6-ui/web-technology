@@ -62,19 +62,18 @@ li {
     border-radius: 10px;
 }
 
-.container{
+.container {
     background-color: aqua;
 }
-.block{
+
+.block {
     width: 200px;
     height: 200px;
     background-color: #e0fff0;
-    position: absolute;
-top: 0;
-left: 0;
-margin-left: 50px;
+    margin: auto;
 }
-.image{
+
+.image {
     display: block;
     height: 300px;
     width: 200px;
@@ -82,6 +81,21 @@ margin-left: 50px;
     margin-left: auto;
     margin-bottom: auto;
 }
+
+.container-2 {
+    background-color: antiquewhite;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #e0fff0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
 
 
 
